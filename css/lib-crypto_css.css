@@ -1,0 +1,273 @@
+/* root */
+
+@charset "UTF-8";
+
+/*
+    * name : 
+    * git hub : https://github.com/narvak/lib-crypto_css
+*/
+:root {
+    --lc-blue: #0d6efd;
+    --lc-indigo: #6610f2;
+    --lc-purple: #6f42c1;
+    --lc-pink: #d63384;
+    --lc-red: #dc3545;
+    --lc-orange: #fd7e14;
+    --lc-yellow: #ffc107;
+    --lc-green: #198754;
+    --lc-teal: #1abc9c;
+    --lc-cyan: #0dcaf0;
+    --lc-white: #fff;
+    --lc-gray: #6c757d;
+    --lc-gray-dark: #343a40;
+    --lc-gray-100: #f8f9fa;
+    --lc-gray-200: #e9ecef;
+    --lc-gray-300: #dee2e6;
+    --lc-gray-400: #ced4da;
+    --lc-gray-500: #adb5bd;
+    --lc-gray-600: #6c757d;
+    --lc-gray-700: #495057;
+    --lc-gray-800: #343a40;
+    --lc-gray-900: #212529;
+    --lc-primary: #1abc9c;
+    --lc-secondary: #2c3e50;
+    --lc-success: #198754;
+    --lc-info: #0dcaf0;
+    --lc-warning: #ffc107;
+    --lc-danger: #dc3545;
+    --lc-light: #f8f9fa;
+    --lc-dark: #212529;
+    --lc-primary-rgb: 26, 188, 156;
+    --lc-secondary-rgb: 44, 62, 80;
+    --lc-success-rgb: 25, 135, 84;
+    --lc-info-rgb: 13, 202, 240;
+    --lc-warning-rgb: 255, 193, 7;
+    --lc-danger-rgb: 220, 53, 69;
+    --lc-light-rgb: 248, 249, 250;
+    --lc-dark-rgb: 33, 37, 41;
+    --lc-white-rgb: 255, 255, 255;
+    --lc-black-rgb: 0, 0, 0;
+    --lc-body-color-rgb: 33, 37, 41;
+    --lc-body-bg-rgb: 255, 255, 255;
+    --lc-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --lc-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --lc-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --lc-body-font-family: var(--bs-font-sans-serif);
+    --lc-body-font-size: 1rem;
+    --lc-body-font-weight: 400;
+    --lc-body-line-height: 1.5;
+    --lc-body-color: #212529;
+    --lc-body-bg: #fff;
+
+    --lc-blue-gray-1: #1a2a3a;
+    --lc-blue-gray-2: #2a3a4a;
+    --lc-blue-gray-3: #3a4a5a;
+    --lc-blue-gray-4: #4a5a6a;
+    --lc-blue-gray-5: #5a6a7a;
+    --lc-blue-gray-6: #6a7a8a;
+    --lc-blue-gray-7: #7a8a9a;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* général */
+body, html {
+    background: #1a2a3a;
+    color: #9a8a7a;
+}
+
+marquee {
+    background: var(--lc-red);
+    color: var(--lc-warning);
+}
+
+/* id et class */
+#nav,.nav {
+    background: #2a3a4a;
+    color: #9a8a7a;
+    width: 100%;
+    height: 100%;
+}
+
+#body, .body {
+    background: white;
+    color: #1a2a3a;
+    width: 100%;
+    height: 100%;
+}
+
+#logo, .logo {
+    background: transparent;
+    width: 144px;
+    height: auto;
+}
+
+#button, .button {
+    background: #1a2a3a;
+    color: #9a8a7a;
+    width: 144px;
+    height: 55px;
+    border: transparent;
+        border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+#filter, .filter {
+    border: 2px solid #2a3a4a;
+        border-radius: 5px;
+}
+
+#wrapper, .wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+#section, .section {
+    width: 100%;
+    height: 100%;
+}
+
+#paralax, .paralax {
+    background: #1a2a3a;
+    color: #9a8a7a;
+    width: 0 auto;
+    height: auto;
+}
+
+#conteneur, .conteneur {
+    background: #1a2a3a;
+    color: #9a8a7a;
+    width: 100%;
+    height: auto;
+}
+
+#contenaire, .contenaire {
+    background: white;
+    color: #1a2a3a;
+    width: 100%;
+    height: auto;
+}
+
+#grid, .grid {
+    background: #1a2a3a;
+    color: #9a8a7a;
+    width: 0 auto;
+    height: auto;
+}
+
+#child, .child {
+    background: #1a2a3a;
+    color: #9a8a7a;
+    width: 0 auto;
+    height: auto;
+}
+
+#children, .children {
+    background: #1a2a3a;
+    color: #9a8a7a;
+    width: 0 auto;
+    height: auto;
+}
+
+/* parallax */
+#parallax-window, .parallax-window {
+    background: transparent;
+    min-height: 400px;
+    border: transparent;
+        border-radius: 10px;
+}
+#parallax-window_error, .parallax-window_error {
+    background: transparent;
+        background-size: cover;
+        background-repeat: no-repeat;
+    min-height: 895px;
+    border: transparent;
+        border-radius: 10px;
+}
+#parallax-window_header, .parallax-window_header {
+    background: transparent;
+    min-height: 1920px;
+    border: transparent;
+        border-radius: 10px;
+}
+
+
+
+
+
+
+
+/*
+couleurs :
+    #1a2a3a
+    #2a3a4a
+    #3a4a5a
+    #4a5a6a
+    #5a6a7a
+    #6a7a8a
+    #7a8a9a
+    /
+    #9a8a7a
+    #8a7a6a
+    #7a6a5a
+    #6a5a4a
+    #5a4a3a
+    #4a3a2a
+    #3a2a1a
+    /
+    white
+    black
+    gray / grey
+    /
+
+    blue
+    red
+    brown
+    yellow
+    green
+    cyan
+    magenta
+    beige
+    violet
+    /
+    gold
+    silver
+
+id = # :
+    nav
+    body
+    logo
+    button
+    filter
+    wrapper
+    section
+    paralax
+    grid
+    child
+    children
+    /
+    conteneur
+    contenaire
+
+class = . :
+
+
+autre :
+    dark-mode
+    light-mode
+    /
+    blue-mode
+    red-mode
+    brown-mode
+    yellow-mode
+    green-mode
+    cyan-mode
+    magenta-mode
+    beige-mode
+    violet-mode
+    /
+    gold-mode
+    silver-mode
+*/
