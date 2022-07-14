@@ -1,6 +1,6 @@
 /* root */
-
 @charset "UTF-8";
+
 
 /*
     * name : 
@@ -52,124 +52,129 @@
     --lc-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --lc-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --lc-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-    --lc-body-font-family: var(--bs-font-sans-serif);
+    --lc-gradient-narflix-1: linear-gradient(175deg );
+    --lc-gradient-narflix-2: linear-gradient(185deg );
+    --lc-body-font-family: var(--lc-font-sans-serif);
     --lc-body-font-size: 1rem;
     --lc-body-font-weight: 400;
     --lc-body-line-height: 1.5;
     --lc-body-color: #212529;
     --lc-body-bg: #fff;
 
-    --lc-blue-gray-1: #1a2a3a;
-    --lc-blue-gray-2: #2a3a4a;
-    --lc-blue-gray-3: #3a4a5a;
-    --lc-blue-gray-4: #4a5a6a;
-    --lc-blue-gray-5: #5a6a7a;
-    --lc-blue-gray-6: #6a7a8a;
-    --lc-blue-gray-7: #7a8a9a;
+    --lc-blue-yellow-1: #9a8a7a;
+    --lc-blue-yellow-2: #8a7a6a;
+    --lc-blue-yellow-3: #7a6a5a;
+    --lc-blue-yellow-4: #6a5a4a;
+    --lc-blue-yellow-5: #5a4a3a;
+    --lc-blue-yellow-6: #4a3a2a;
+    --lc-blue-yellow-7: #3a2a1a;
+
+    --lc-bg_color-1: #1a2a3a;
+    --lc-bg_color-2: #2a3a4a;
+    --lc-bg_color-3: #3a4a5a;
+    --lc-bg_color-4: #4a5a6a;
+    --lc-bg_color-5: #5a6a7a;
+    --lc-bg_color-6: #6a7a8a;
+    --lc-bg_color-7: #7a8a9a;
 }
 
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
+
 /* général */
 body, html {
     background: #1a2a3a;
     color: #9a8a7a;
 }
-
 marquee {
     background: var(--lc-red);
     color: var(--lc-warning);
 }
 
+
 /* id et class */
 #nav,.nav {
-    background: #2a3a4a;
-    color: #9a8a7a;
+    background: var(--lc-bg_color-2);
+    color: var(--lc-blue-yellow-1);
     width: 100%;
     height: 100%;
 }
-
 #body, .body {
     background: white;
-    color: #1a2a3a;
+    color: var(--lc-bg_color-1);
     width: 100%;
-    height: 100%;
+    height: auto;
 }
-
 #logo, .logo {
     background: transparent;
     width: 144px;
     height: auto;
 }
-
 #button, .button {
-    background: #1a2a3a;
-    color: #9a8a7a;
+    background: var(--lc-bg_color-2);
+    color: var(--lc-blue-yellow-2);
     width: 144px;
     height: 55px;
     border: transparent;
         border-radius: 5px;
-    box-shadow: 1px 1px 5px 1px black;
 }
-
 #filter, .filter {
-    border: 2px solid #2a3a4a;
+    border: 2px solid var(--lc-bg_color-2);
         border-radius: 5px;
 }
-
 #wrapper, .wrapper {
     width: 100%;
     height: 100%;
 }
-
 #section, .section {
     width: 100%;
     height: 100%;
 }
-
 #paralax, .paralax {
-    background: #1a2a3a;
-    color: #9a8a7a;
+    background: var(--lc-bg_color-1);
+    color: var(--lc-blue-yellow-1);
     width: 0 auto;
     height: auto;
 }
-
 #conteneur, .conteneur {
-    background: #1a2a3a;
-    color: #9a8a7a;
+    background: var(--lc-bg_color-1);
+    color: var(--lc-blue-yellow-1);
     width: 100%;
     height: auto;
 }
-
+#containeur, .containeur {
+    background: #9a9a9a;
+    color: black;
+    width: 100%;
+    height: auto;
+}
 #contenaire, .contenaire {
     background: white;
-    color: #1a2a3a;
+    color: var(--lc-bg_color-1);
     width: 100%;
     height: auto;
 }
-
 #grid, .grid {
-    background: #1a2a3a;
-    color: #9a8a7a;
+    background: var(--lc-bg_color-1);
+    color: var(--lc-blue-yellow-1);
     width: 0 auto;
     height: auto;
 }
-
 #child, .child {
-    background: #1a2a3a;
-    color: #9a8a7a;
+    background: var(--lc-bg_color-1);
+    color: var(--lc-blue-yellow-1);
+    width: 0 auto;
+    height: auto;
+}
+#children, .children {
+    background: var(--lc-bg_color-1);
+    color: var(--lc-blue-yellow-1);
     width: 0 auto;
     height: auto;
 }
 
-#children, .children {
-    background: #1a2a3a;
-    color: #9a8a7a;
-    width: 0 auto;
-    height: auto;
-}
 
 /* parallax */
 #parallax-window, .parallax-window {
@@ -192,6 +197,212 @@ marquee {
     border: transparent;
         border-radius: 10px;
 }
+
+
+/* background */
+#bg-blue, .bg-blue {
+    background-color: blue;
+}
+#bg-red, .bg-red {
+    background-color: red;
+}
+#bg-brown, .bg-brown {
+    background-color: brown;
+}
+#bg-yellow, .bg-yellow {
+    background-color: yellow;
+}
+#bg-green, .bg-green {
+    background-color: green;
+}
+#bg-cyan, .bg-cyan {
+    background-color: cyan;
+}
+#bg-magenta, .bg-magenta {
+    background-color: magenta;
+}
+#bg-beige, .bg-beige {
+    background-color: beige;
+}
+#bg-violet, .bg-violet {
+    background-color: violet;
+}
+#bg-gold, .bg-gold {
+    background-color: gold;
+}
+#bg-silver, .bg-silver {
+    background-color: silver;
+}
+
+
+/* text */
+#text-blue, .text-blue {
+    color: blue;
+}
+#text-red, .text-red {
+    color: red;
+}
+#text-brown, .text-brown {
+    color: brown;
+}
+#text-yellow, .text-yellow {
+    color: yellow;
+}
+#text-green, .text-green {
+    color: green;
+}
+#text-cyan, .text-cyan {
+    color: cyan;
+}
+#text-magenta, .text-magenta {
+    color: magenta;
+}
+#text-beige, .text-beige {
+    color: beige;
+}
+#text-violet, .text-violet {
+    color: violet;
+}
+#text-gold, .text-gold {
+    color: gold;
+}
+#text-silver, .text-silver {
+    color: silver;
+}
+
+/* mode */
+    /* dark mode / light mode */
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
+    .blue-mode {
+        background-color: blue;
+        color: white;
+    }
+    .red-mode {
+        background-color: red;
+        color: white;
+    }
+    .brown-mode {
+        background-color: brown;
+        color: white;
+    }
+    .yellow-mode {
+        background-color: yellow;
+        color: black;
+    }
+    .green-mode {
+        background-color: green;
+        color: black;
+    }
+    .cyan-mode {
+        background-color: cyan;
+        color: black;
+    }
+    .magenta-mode {
+        background-color: magenta;
+        color: black;
+    }
+    .beige-mode {
+        background-color: beige;
+        color: black;
+    }
+    .violet-mode {
+        background-color: violet;
+        color: black;
+    }
+    .gold-mode {
+        background-color: gold;
+        color: black;
+    }
+    .silver-mode {
+        background-color: silver;
+        color: black;
+    }
+    #button-mode, .button-mode {
+        background: var(--lc-bg_color-2);
+        color: var(--lc-blue-yellow-2);
+        width: 100px;
+        height: 50px;
+        border: transparent;
+            border-radius: 5px;
+    }
+
+
+
+
+
+/*
+    blue
+    red
+    brown
+    yellow
+    green
+    cyan
+    magenta
+    beige
+    violet
+    /
+    gold
+    silver
+
+autre :
+    dark-mode
+    light-mode
+    /
+    blue-mode
+    red-mode
+    brown-mode
+    yellow-mode
+    green-mode
+    cyan-mode
+    magenta-mode
+    beige-mode
+    violet-mode
+    /
+    gold-mode
+    silver-mode
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -221,7 +432,6 @@ couleurs :
     black
     gray / grey
     /
-
     blue
     red
     brown
