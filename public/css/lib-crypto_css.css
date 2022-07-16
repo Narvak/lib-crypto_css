@@ -52,8 +52,6 @@
     --lc-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --lc-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --lc-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-    --lc-gradient-narflix-1: linear-gradient(175deg );
-    --lc-gradient-narflix-2: linear-gradient(185deg );
     --lc-body-font-family: var(--lc-font-sans-serif);
     --lc-body-font-size: 1rem;
     --lc-body-font-weight: 400;
@@ -333,18 +331,14 @@ marquee {
 
 
 
-
-
-
-
-
-
-
-
 /*
     class et id :
         btn (button)
         slide
         nav (à developpé) [navlink, ]
         header, footer
+    
+    mode :
+        light-mode
+        gray-mode
 */
