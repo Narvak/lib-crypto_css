@@ -1,0 +1,350 @@
+/* root */
+@charset "UTF-8";
+
+
+/*
+    * name : 
+    * git hub : https://github.com/narvak/lib-crypto_css
+*/
+:root {
+    --lc-blue: #0d6efd;
+    --lc-indigo: #6610f2;
+    --lc-purple: #6f42c1;
+    --lc-pink: #d63384;
+    --lc-red: #dc3545;
+    --lc-orange: #fd7e14;
+    --lc-yellow: #ffc107;
+    --lc-green: #198754;
+    --lc-teal: #1abc9c;
+    --lc-cyan: #0dcaf0;
+    --lc-white: #fff;
+    --lc-gray: #6c757d;
+    --lc-gray-dark: #343a40;
+    --lc-gray-100: #f8f9fa;
+    --lc-gray-200: #e9ecef;
+    --lc-gray-300: #dee2e6;
+    --lc-gray-400: #ced4da;
+    --lc-gray-500: #adb5bd;
+    --lc-gray-600: #6c757d;
+    --lc-gray-700: #495057;
+    --lc-gray-800: #343a40;
+    --lc-gray-900: #212529;
+    --lc-primary: #1abc9c;
+    --lc-secondary: #2c3e50;
+    --lc-success: #198754;
+    --lc-info: #0dcaf0;
+    --lc-warning: #ffc107;
+    --lc-danger: #dc3545;
+    --lc-light: #f8f9fa;
+    --lc-dark: #212529;
+    --lc-primary-rgb: 26, 188, 156;
+    --lc-secondary-rgb: 44, 62, 80;
+    --lc-success-rgb: 25, 135, 84;
+    --lc-info-rgb: 13, 202, 240;
+    --lc-warning-rgb: 255, 193, 7;
+    --lc-danger-rgb: 220, 53, 69;
+    --lc-light-rgb: 248, 249, 250;
+    --lc-dark-rgb: 33, 37, 41;
+    --lc-white-rgb: 255, 255, 255;
+    --lc-black-rgb: 0, 0, 0;
+    --lc-body-color-rgb: 33, 37, 41;
+    --lc-body-bg-rgb: 255, 255, 255;
+    --lc-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --lc-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --lc-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --lc-gradient-narflix-1: linear-gradient(175deg );
+    --lc-gradient-narflix-2: linear-gradient(185deg );
+    --lc-body-font-family: var(--lc-font-sans-serif);
+    --lc-body-font-size: 1rem;
+    --lc-body-font-weight: 400;
+    --lc-body-line-height: 1.5;
+    --lc-body-color: #212529;
+    --lc-body-bg: #fff;
+
+    --lc-blue-yellow-1: #9a8a7a;
+    --lc-blue-yellow-2: #8a7a6a;
+    --lc-blue-yellow-3: #7a6a5a;
+    --lc-blue-yellow-4: #6a5a4a;
+    --lc-blue-yellow-5: #5a4a3a;
+    --lc-blue-yellow-6: #4a3a2a;
+    --lc-blue-yellow-7: #3a2a1a;
+
+    --lc-bg_color-1: #1a2a3a;
+    --lc-bg_color-2: #2a3a4a;
+    --lc-bg_color-3: #3a4a5a;
+    --lc-bg_color-4: #4a5a6a;
+    --lc-bg_color-5: #5a6a7a;
+    --lc-bg_color-6: #6a7a8a;
+    --lc-bg_color-7: #7a8a9a;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px;
+}
+
+
+/* général */
+body, html {
+    background: #1a2a3a;
+    color: #9a8a7a;
+}
+marquee {
+    background: var(--lc-red);
+    color: var(--lc-warning);
+}
+
+/* id et class */
+#nav, .nav {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-blue-yellow-1);
+    width: 100%;
+    height: 100%;
+}
+#body, .body, #html, .html {
+    background: white;
+    color: var(--lc-bg_color-1);
+    width: 100%;
+    height: auto;
+}
+#logo, .logo {
+    background: transparent;
+    width: 144px;
+    height: auto;
+}
+#button, .button {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-blue-yellow-2);
+    width: 144px;
+    height: 55px;
+    border: transparent;
+        border-radius: 5px;
+}
+#filter, .filter {
+    border: 2px solid var(--lc-bg_color-2);
+        border-radius: 5px;
+}
+#wrapper, .wrapper {
+    width: 100%;
+    height: 100%;
+}
+#section, .section {
+    width: 100%;
+    height: 100%;
+}
+#paralax, .paralax {
+    background: var(--lc-bg_color-1);
+    color: var(--lc-blue-yellow-1);
+    width: 0 auto;
+    height: auto;
+}
+#conteneur, .conteneur {
+    background: var(--lc-bg_color-1);
+    color: var(--lc-blue-yellow-1);
+    width: 100%;
+    height: auto;
+}
+#containeur, .containeur {
+    background: #9a9a9a;
+    color: black;
+    width: 100%;
+    height: auto;
+}
+#contenaire, .contenaire {
+    background: white;
+    color: var(--lc-bg_color-1);
+    width: 100%;
+    height: auto;
+}
+#grid, .grid {
+    background: var(--lc-bg_color-1);
+    color: var(--lc-blue-yellow-1);
+    width: 0 auto;
+    height: auto;
+}
+#child, .child {
+    background: var(--lc-bg_color-1);
+    color: var(--lc-blue-yellow-1);
+    width: 0 auto;
+    height: auto;
+}
+#children, .children {
+    background: var(--lc-bg_color-1);
+    color: var(--lc-blue-yellow-1);
+    width: 0 auto;
+    height: auto;
+}
+
+
+/* parallax */
+#parallax-window, .parallax-window {
+    background: transparent;
+    min-height: 400px;
+    border: transparent;
+        border-radius: 10px;
+}
+#parallax-window_error, .parallax-window_error {
+    background: transparent;
+        background-size: cover;
+        background-repeat: no-repeat;
+    min-height: 895px;
+    border: transparent;
+        border-radius: 10px;
+}
+#parallax-window_header, .parallax-window_header {
+    background: transparent;
+    min-height: 1920px;
+    border: transparent;
+        border-radius: 10px;
+}
+
+
+/* background */
+#bg-blue, .bg-blue {
+    background-color: blue;
+}
+#bg-red, .bg-red {
+    background-color: red;
+}
+#bg-brown, .bg-brown {
+    background-color: brown;
+}
+#bg-yellow, .bg-yellow {
+    background-color: yellow;
+}
+#bg-green, .bg-green {
+    background-color: green;
+}
+#bg-cyan, .bg-cyan {
+    background-color: cyan;
+}
+#bg-magenta, .bg-magenta {
+    background-color: magenta;
+}
+#bg-beige, .bg-beige {
+    background-color: beige;
+}
+#bg-violet, .bg-violet {
+    background-color: violet;
+}
+#bg-gold, .bg-gold {
+    background-color: gold;
+}
+#bg-silver, .bg-silver {
+    background-color: silver;
+}
+
+
+/* text */
+#text-blue, .text-blue {
+    color: blue;
+}
+#text-red, .text-red {
+    color: red;
+}
+#text-brown, .text-brown {
+    color: brown;
+}
+#text-yellow, .text-yellow {
+    color: yellow;
+}
+#text-green, .text-green {
+    color: green;
+}
+#text-cyan, .text-cyan {
+    color: cyan;
+}
+#text-magenta, .text-magenta {
+    color: magenta;
+}
+#text-beige, .text-beige {
+    color: beige;
+}
+#text-violet, .text-violet {
+    color: violet;
+}
+#text-gold, .text-gold {
+    color: gold;
+}
+#text-silver, .text-silver {
+    color: silver;
+}
+
+/* mode */
+    /* dark mode / light mode */
+    #dark-mode, .dark-mode {
+        background-color: black;
+        color: white;
+    }
+    #blue-mode, .blue-mode {
+        background-color: blue;
+        color: white;
+    }
+    #red-mode, .red-mode {
+        background-color: red;
+        color: white;
+    }
+    #brown-mode, .brown-mode {
+        background-color: brown;
+        color: white;
+    }
+    #yellow-mode, .yellow-mode {
+        background-color: yellow;
+        color: black;
+    }
+    #green-mode, .green-mode {
+        background-color: green;
+        color: black;
+    }
+    #cyan-mode, .cyan-mode {
+        background-color: cyan;
+        color: black;
+    }
+    #magenta-mode, .magenta-mode {
+        background-color: magenta;
+        color: black;
+    }
+    #beige-mode, .beige-mode {
+        background-color: beige;
+        color: black;
+    }
+    #violet-mode, .violet-mode {
+        background-color: violet;
+        color: black;
+    }
+    #gold-mode, .gold-mode {
+        background-color: gold;
+        color: black;
+    }
+    #silver-mode, .silver-mode {
+        background-color: silver;
+        color: black;
+    }
+    #button-mode, .button-mode {
+        background: var(--lc-bg_color-2);
+        color: var(--lc-blue-yellow-2);
+        width: 100px;
+        height: 50px;
+        border: transparent;
+            border-radius: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    class et id :
+        btn (button)
+        slide
+        nav (à developpé) [navlink, ]
+        header, footer
+*/
