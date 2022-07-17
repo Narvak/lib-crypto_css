@@ -275,6 +275,14 @@ marquee {
         background-color: black;
         color: white;
     }
+    #light-mode, .light-mode {
+        background-color: white;
+        color: black;
+    }
+    #gray-mode, .gray-mode {
+        background-color: gray;
+        color: black;
+    }
     #blue-mode, .blue-mode {
         background-color: blue;
         color: white;
@@ -339,6 +347,6 @@ marquee {
         header, footer
     
     mode :
-        light-mode
+        light-mode (white-mode)
         gray-mode
 */

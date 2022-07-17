@@ -3,6 +3,16 @@ function darkmode() {
     element.classList.toggle("dark-mode");
 }
 
+function lightmode() {
+    var element = document.body;
+    element.classList.toggle("light-mode");
+}
+
+function graymode() {
+    var element = document.body;
+    element.classList.toggle("gray-mode");
+}
+
 function bluemode() {
     var element = document.body;
     element.classList.toggle("blue-mode");
