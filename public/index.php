@@ -42,7 +42,7 @@
 
 <!-- General-->
 	<header>
-        <a href="">
+        <a href="#">
             <h1>lorem ipsum</h1>
         </a>
 
@@ -61,7 +61,7 @@
         </a>
     </header>
 
-            <div id="">
+        <div id="">
             <p>
                 Lorem ipsum, <br />
                 dolor sit amet consectetur adipisicing elit. <br />
@@ -78,42 +78,49 @@
                 voluptatum placeat adipisci quidem ducimus consequatur voluptatem, <br />
                 fugit earum deserunt deleniti cumque aliquam non repudiandae vero. <br />
             </p>
-            </div>
+        </div>
 
-            <div id="">
-                <!-- ABOUT -->
-            </div>
+        <div id="">
+            <!-- ABOUT -->
+        </div>
 
-            <div id="">
-                <!-- SERVICE -->
-            </div>
+        <div id="">
+            <!-- SERVICE -->
+                <img src="media/" class="img-square">
+                <img src="media/" class="img-circle">
+                <img src="media/" class="img-square-h">
+                <img src="media/" class="img-square-l">
+        </div>
 
-            <div id="">
-                <!-- CONTACT -->
-            </div>
+        <div id="">
+            <!-- CONTACT -->
+                Tel.: <br />
+                Mail.: <br />
+                Addresse.: <br />
+        </div>
 
 	<footer>
         <!-- BUTTON MODE -->
-        <button class="button-mode" onclick="darkmode(this)">Dark-mode</button>
-            <button class="button-mode" onclick="lightmode(this)">Light-mode</button>
+            <button class="button-mode box-shadow" onclick="darkmode(this)">Dark-mode</button>
+            <button class="button-mode box-shadow" onclick="lightmode(this)">Light-mode</button>
 
-            <button class="button-mode" onclick="graymode(this)">Gray-mode</button>
-            <button class="button-mode" onclick="bluemode(this)">Blue-mode</button>
+            <button class="button-mode box-shadow" onclick="graymode(this)">Gray-mode</button>
+            <button class="button-mode box-shadow" onclick="bluemode(this)">Blue-mode</button>
 
-            <button class="button-mode" onclick="redmode(this)">Red-mode</button>
-            <button class="button-mode" onclick="brownmode(this)">Brown-mode</button>
+            <button class="button-mode box-shadow" onclick="redmode(this)">Red-mode</button>
+            <button class="button-mode box-shadow" onclick="brownmode(this)">Brown-mode</button>
 
-            <button class="button-mode" onclick="yellowmode(this)">Yellow-mode</button>
-            <button class="button-mode" onclick="greenmode(this)">Green-mode</button>
+            <button class="button-mode box-shadow" onclick="yellowmode(this)">Yellow-mode</button>
+            <button class="button-mode box-shadow" onclick="greenmode(this)">Green-mode</button>
 
-            <button class="button-mode" onclick="cyanmode(this)">Cyan-mode</button>
-            <button class="button-mode" onclick="magentamode(this)">Magenta-mode</button>
+            <button class="button-mode box-shadow" onclick="cyanmode(this)">Cyan-mode</button>
+            <button class="button-mode box-shadow" onclick="magentamode(this)">Magenta-mode</button>
 
-            <button class="button-mode" onclick="beigemode(this)">Beige-mode</button>
-            <button class="button-mode" onclick="violetmode(this)">Violet-mode</button>
+            <button class="button-mode box-shadow" onclick="beigemode(this)">Beige-mode</button>
+            <button class="button-mode box-shadow" onclick="violetmode(this)">Violet-mode</button>
 
-            <button class="button-mode" onclick="goldmode(this)">Gold-mode</button>
-            <button class="button-mode" onclick="silvermode(this)">Silver-mode</button>
+            <button class="button-mode box-shadow" onclick="goldmode(this)">Gold-mode</button>
+            <button class="button-mode box-shadow" onclick="silvermode(this)">Silver-mode</button>
     </footer>
 
 	</body>

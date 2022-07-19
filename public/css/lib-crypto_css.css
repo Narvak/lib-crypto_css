@@ -85,12 +85,24 @@
 
 /* général */
 body, html {
-    background: #1a2a3a;
-    color: #9a8a7a;
+    background: var(--lc-bg_color-1);
+    color: var(--lc-blue-yellow-1);
 }
 marquee {
     background: var(--lc-red);
     color: var(--lc-warning);
+}
+header, footer {
+    background: var(--lc-bg_color-3);
+    color: var(--lc-blue-yellow-1);
+    width: 100%;
+    height: auto;
+}
+nav {
+    background-color: var(--lc-bg_color-3);
+    color: var(--lc-blue-yellow-1);
+    width: 100%;
+    height: auto;
 }
 
 /* id et class */
@@ -103,6 +115,12 @@ marquee {
 #body, .body, #html, .html {
     background: white;
     color: var(--lc-bg_color-1);
+    width: 100%;
+    height: auto;
+}
+#header, .header, #footer, .footer {
+    background: var(--lc-bg_color-3);
+    color: var(--lc-blue-yellow-1);
     width: 100%;
     height: auto;
 }
@@ -172,6 +190,38 @@ marquee {
     color: var(--lc-blue-yellow-1);
     width: 0 auto;
     height: auto;
+}
+#box-shadow, .box-shadow {
+    box-shadow: 0px 0px 10px 0px var(--lc-bg_color-5);
+}
+#img-square, .img-square {
+    width: 144px;
+    height: 144px;
+    border-radius: 15px;
+    background-color: white;
+}
+#img-circle, .img-circle {
+    width: 144px;
+    height: 144px;
+    border-radius: 100%;
+    background-color: white;
+}
+.img-square-h {
+    width: 144px;
+    height: 233px;
+    border-radius: 15px;
+    background-color: white;
+}
+.img-square-l {
+    width: 233px;
+    height: 144px;
+    border-radius: 15px;
+    background-color: white;
+}
+#flex, .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -343,10 +393,7 @@ marquee {
     class et id :
         btn (button)
         slide
-        nav (à developpé) [navlink, ]
-        header, footer
-    
-    mode :
-        light-mode (white-mode)
-        gray-mode
+        nav (à developpé) [navlink, navbarre, ]
+        width
+        height
 */
