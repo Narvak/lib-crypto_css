@@ -3,7 +3,7 @@
 
 
 /*
-    * name : 
+    * name : lib-crypto_css
     * git hub : https://github.com/narvak/lib-crypto_css
 */
 :root {
@@ -129,14 +129,6 @@ nav {
     width: 144px;
     height: auto;
 }
-#button, .button {
-    background: var(--lc-bg_color-2);
-    color: var(--lc-blue-yellow-2);
-    width: 144px;
-    height: 55px;
-    border: transparent;
-        border-radius: 5px;
-}
 #filter, .filter {
     border: 2px solid var(--lc-bg_color-2);
         border-radius: 5px;
@@ -245,6 +237,53 @@ nav {
     min-height: 1920px;
     border: transparent;
         border-radius: 10px;
+}
+
+
+/* button */
+#button, .button, #btn, .btn {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-blue-yellow-2);
+    width: 144px;
+    height: 55px;
+    border: transparent;
+        border-radius: 5px;
+}
+#btn-fluid, .btn-fluid {
+    width: 100%;
+    height: auto;
+}
+#btn-primary, .btn-primary {
+    background-color: var(--lc-primary);
+    color: white;
+}
+#btn-secondary, .btn-secondary {
+    background-color: var(--lc-secondary);
+    color: white;
+}
+#btn-success, .btn-success {
+    background-color: var(--lc-success);
+    color: white;
+}
+#btn-info, .btn-info {
+    background-color: var(--lc-info);
+    color: white;
+}
+#btn-warning, .btn-warning {
+    background-color: var(--lc-warning);
+    color: white;
+}
+#btn-danger, .btn-danger {
+    background-color: var(--lc-danger);
+    color: white;
+}
+#btn-light, .btn-light {
+    background-color: var(--lc-light);
+    color: var(--lc-dark);
+}
+#btn-dark, .btn-dark {
+    background-color: var(--lc-dark);
+    color: var(--lc-light);
 }
 
 
@@ -391,9 +430,10 @@ nav {
 
 /*
     class et id :
-        btn (button)
-        slide
+        slide (à developpé) [slide, slide-fluid, slide-container, ]
         nav (à developpé) [navlink, navbarre, ]
-        width
-        height
+        width 
+        height 
+        border (à developpé) [border-radius, border-transparent, ]
+        card (à developpé) [card, card-fluid, card-body, ]
 */
