@@ -427,13 +427,24 @@ nav {
 
 
 
-
 /*
     class et id :
-        slide (à developpé) [slide, slide-fluid, slide-container, ]
-        nav (à developpé) [navlink, navbarre, ]
+        slide (à developpé)
+            [slide, slide-fluid, slide-container, ]
+
+        nav (à developpé)
+            [navlink, navbarre, ]
+
         width 
+        
         height 
-        border (à developpé) [border-radius, border-transparent, ]
-        card (à developpé) [card, card-fluid, card-body, ]
+        
+        border (à developpé)
+            [border-radius, border-transparent, ]
+
+        card (à developpé)
+            [card, card-fluid, card-body, ]
+
+        box-shadow (à developpé)
+            [box-shadow, box-shadow-primary, box-shadow-secondary, box-shadow-success, box-shadow-info, box-shadow-warning, box-shadow-danger, box-shadow-light, box-shadow-dark ]
 */

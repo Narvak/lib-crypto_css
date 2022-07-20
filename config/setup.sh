@@ -30,7 +30,9 @@ chmod 775 python.py
 chmod 777 python.py
 ./python.py
 
-echo "ERROR 13"
+echo "ERROR 42"
 echo "This error is related either to your username, to your password, or to the other arguments."
+
+
 
 fi
