@@ -41,7 +41,7 @@
 	<body>
 
 <!-- General-->
-	<header>
+	<header class="flex">
         <a href="#">
             <h1>lorem ipsum</h1>
         </a>
@@ -84,7 +84,7 @@
             <!-- ABOUT -->
         </div>
 
-        <div id="">
+        <div id="" class="flex">
             <!-- SERVICE -->
                 <img src="media/" class="img-square">
                 <img src="media/" class="img-circle">
@@ -99,7 +99,7 @@
                 Addresse.: <br />
         </div>
 
-	<footer>
+	<footer class="flex">
         <!-- BUTTON MODE -->
             <button class="button-mode box-shadow" onclick="darkmode(this)">Dark-mode</button>
             <button class="button-mode box-shadow" onclick="lightmode(this)">Light-mode</button>

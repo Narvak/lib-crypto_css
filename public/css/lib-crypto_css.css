@@ -236,7 +236,25 @@ header, footer {
 #flex, .flex {
     display: flex;
     align-items: center;
+    padding: 5px;
+}
+#flex-left, .flex-left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 5px;
+}
+#flex-center, .flex-center {
+    display: flex;
+    align-items: center;
     justify-content: center;
+    padding: 5px;
+}
+#flex-right, .flex-right {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 5px;
 }
 
 
@@ -511,9 +529,11 @@ nav {
 
 /*
     class et id :
-        width 
-        
-        height 
+        width
+            suivre la suite de fibonacci
+
+        height
+            suivre la suite de fibonacci
         
         border (à developpé)
             [border-radius, border-transparent, ]
