@@ -5,7 +5,7 @@
     Ce repo est la documentation officielle de cette librairie.
  
  ## Version
-    V0.9.5
+    V 0.9.0
  
  ## Date de création
     00/00/2022
