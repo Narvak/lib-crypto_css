@@ -3,10 +3,10 @@
     config > setup
 
     ### Run the setup.sh file
-    chmod 755 setup.sh
-    chmod 775 setup.sh
-    chmod 777 setup.sh
-    ./setup.sh
+        chmod 755 setup.sh
+        chmod 775 setup.sh
+        chmod 777 setup.sh
+        ./setup.sh
 
 ## 
 
