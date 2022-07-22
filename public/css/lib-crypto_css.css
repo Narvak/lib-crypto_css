@@ -232,6 +232,81 @@ header, footer {
 }
 
 
+
+/* width */
+#w-13, .w-13 {
+    width: 13px;
+}
+#w-21, .w-21 {
+    width: 21px;
+}
+#w-34, .w-34 {
+    width: 34px;
+}
+#w-55, .w-55 {
+    width: 55px;
+}
+#w-89, .w-89 {
+    width: 89px;
+}
+#w-144, .w-144 {
+    width: 144px;
+}
+#w-233, .w-233 {
+    width: 233px;
+}
+#w-377, .w-377 {
+    width: 377px;
+}
+#w-610, .w-610 {
+    width: 610px;
+}
+#w-987, .w-987 {
+    width: 987px;
+}
+#w-1597, .w-1597 {
+    width: 1597px;
+}
+
+
+
+/* height */
+#h-13, .h-13 {
+    width: 13px;
+}
+#h-21, .h-21 {
+    width: 21px;
+}
+#h-34, .h-34 {
+    width: 34px;
+}
+#h-55, .h-55 {
+    width: 55px;
+}
+#h-89, .h-89 {
+    width: 89px;
+}
+#h-144, .h-144 {
+    width: 144px;
+}
+#h-233, .h-233 {
+    width: 233px;
+}
+#h-377, .h-377 {
+    width: 377px;
+}
+#h-610, .h-610 {
+    width: 610px;
+}
+#h-987, .h-987 {
+    width: 987px;
+}
+#h-1597, .h-1597 {
+    width: 1597px;
+}
+
+
+
 /* flex */
 #flex, .flex {
     display: flex;
@@ -529,12 +604,6 @@ nav {
 
 /*
     class et id :
-        width
-            suivre la suite de fibonacci
-
-        height
-            suivre la suite de fibonacci
-
         border (à developpé)
             [border-radius, border-transparent, ]
 
