@@ -1,7 +1,6 @@
 /* root */
 @charset "UTF-8";
 
-
 /*
     * name : lib-crypto_css
     * git hub : https://github.com/narvak/lib-crypto_css
@@ -81,7 +80,6 @@
   margin: 0;
   padding: 5px;
 }
-
 
 /* général */
 body, html {
@@ -172,8 +170,6 @@ header, footer {
     height: auto;
 }
 
-
-
 /* img */
 #img-square, .img-square {
     background-color: white;
@@ -199,8 +195,6 @@ header, footer {
     height: 144px;
     border-radius: 15px;
 }
-
-
 
 /* box-shadow */
 #box-shadow, .box-shadow {
@@ -230,8 +224,6 @@ header, footer {
 #box-shadow-dark, .box-shadow-dark {
     box-shadow: 0px 0px 10px 0px var(--lc-dark);
 }
-
-
 
 /* width */
 #w-13, .w-13 {
@@ -268,8 +260,6 @@ header, footer {
     width: 1597px;
 }
 
-
-
 /* height */
 #h-13, .h-13 {
     width: 13px;
@@ -305,8 +295,6 @@ header, footer {
     width: 1597px;
 }
 
-
-
 /* flex */
 #flex, .flex {
     display: flex;
@@ -332,8 +320,6 @@ header, footer {
     padding: 5px;
 }
 
-
-
 /* nav */
 nav {
     background-color: var(--lc-bg_color-3);
@@ -355,7 +341,246 @@ nav {
     color: var(--lc-bg_color-1);
 }
 
+/* border */
+#b-transparent, .b-transparent {
+    border: transparent;
+}
+#b-primary, .b-primary {
+    border: 1px solid var(--lc-primary);
+}
+#b-secondary, .b-secondary {
+    border: 1px solid var(--lc-secondary);
+}
+#b-success, .b-success {
+    border: 1px solid var(--lc-success);
+}
+#b-info, .b-info {
+    border: 1px solid var(--lc-info);
+}
+#b-warning, .b-warning {
+    border: 1px solid var(--lc-warning);
+}
+#b-danger, .b-danger {
+    border: 1px solid var(--lc-danger);
+}
+#b-light, .b-light {
+    border: 1px solid var(--lc-light);
+}
+#b-dark, .b-dark {
+    border: 1px solid var(--lc-dark);
+}
 
+/* border radius */
+#b-r-transparent, .b-r-transparent {
+    border: transparent;
+        border-radius: 5px;
+}
+#b-r-primary, .b-r-primary {
+    border: 3px solid var(--lc-primary);
+        border-radius: 5px;
+}
+#b-r-secondary, .b-r-secondary {
+    border: 3px solid var(--lc-secondary);
+        border-radius: 5px;
+}
+#b-r-success, .b-r-success {
+    border: 3px solid var(--lc-success);
+        border-radius: 5px;
+}
+#b-r-info, .b-r-info {
+    border: 3px solid var(--lc-info);
+        border-radius: 5px;
+}
+#b-r-warning, .b-r-warning {
+    border: 3px solid var(--lc-warning);
+        border-radius: 5px;
+}
+#b-r-danger, .b-r-danger {
+    border: 3px solid var(--lc-danger);
+        border-radius: 5px;
+}
+#b-r-light, .b-r-light {
+    border: 3px solid var(--lc-light);
+        border-radius: 5px;
+}
+#b-r-dark, .b-r-dark {
+    border: 3px solid var(--lc-dark);
+        border-radius: 5px;
+}
+
+/* card */
+#card, .card {
+    background-color: white;
+    color: black;
+    width: 144px;
+    height: auto;
+}
+#card-primary, .card-primary {
+    background-color: var(--lc-primary);
+    color: white;
+    width: 144px;
+    height: auto;
+}
+#card-secondary, .card-secondary {
+    background-color: var(--lc-secondary);
+    color: white;
+    width: 144px;
+    height: auto;
+}
+#card-success, .card-success {
+    background-color: var(--lc-success);
+    color: white;
+    width: 144px;
+    height: auto;
+}
+#card-info, .card-info {
+    background-color: var(--lc-info);
+    color: white;
+    width: 144px;
+    height: auto;
+}
+#card-warning, .card-warning {
+    background-color: var(--lc-warning);
+    color: white;
+    width: 144px;
+    height: auto;
+}
+#card-danger, .card-danger {
+    background-color: var(--lc-danger);
+    color: white;
+    width: 144px;
+    height: auto;
+}
+#card-light, .card-light {
+    background-color: var(--lc-light);
+    color: white;
+    width: 144px;
+    height: auto;
+}
+
+/* card-fluid */
+#card-fluid, .card-fluid {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: auto;
+}
+#card-fluid-primary, .card-fluid-primary {
+    background-color: var(--lc-primary);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+#card-fluid-secondary, .card-fluid-secondary {
+    background-color: var(--lc-secondary);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+#card-fluid-success, .card-fluid-success {
+    background-color: var(--lc-success);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+#card-fluid-info, .card-fluid-info {
+    background-color: var(--lc-info);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+#card-fluid-warning, .card-fluid-warning {
+    background-color: var(--lc-warning);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+#card-fluid-danger, .card-fluid-danger {
+    background-color: var(--lc-danger);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+#card-fluid-light, .card-fluid-light {
+    background-color: var(--lc-light);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+/* card-containeur */
+#card-containeur, .card-containeur {
+    background-color: white;
+    color: black;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-containeur-primary, .card-containeur-primary {
+    background-color: var(--lc-primary);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-containeur-secondary, .card-containeur-secondary {
+    background-color: var(--lc-secondary);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-containeur-success, .card-containeur-success {
+    background-color: var(--lc-success);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-containeur-info, .card-containeur-info {
+    background-color: var(--lc-info);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-containeur-warning, .card-containeur-warning {
+    background-color: var(--lc-warning);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-containeur-danger, .card-containeur-danger {
+    background-color: var(--lc-danger);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-containeur-light, .card-containeur-light {
+    background-color: var(--lc-light);
+    color: white;
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* slide */
 #slide, .slide, #slide-fluid, .slide-fluid {
@@ -365,11 +590,14 @@ nav {
 #slide-containeur, .slide-containeur {
     width: 0 auto;
     height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #slide::before, .slide::before,
 #slide-fluid::before, .slide-fluid::before,
 #slide-containeur::before, .slide-containeur::before {
-    background-image: url();
+    background-image: url(../media/);
     animation: aaa 10s infinite;
 }
 @keyframes aaa {
@@ -389,8 +617,6 @@ nav {
         background-image: url();
     }
 }
-
-
 
 /* parallax */
 #parallax-window, .parallax-window {
@@ -413,7 +639,6 @@ nav {
     border: transparent;
         border-radius: 10px;
 }
-
 
 /* button */
 #button, .button, #btn, .btn {
@@ -461,7 +686,6 @@ nav {
     color: var(--lc-light);
 }
 
-
 /* background */
 #bg-blue, .bg-blue {
     background-color: blue;
@@ -496,7 +720,6 @@ nav {
 #bg-silver, .bg-silver {
     background-color: silver;
 }
-
 
 /* text */
 #text-blue, .text-blue {
@@ -534,7 +757,6 @@ nav {
 }
 
 /* mode */
-    /* dark mode / light mode */
     #dark-mode, .dark-mode {
         background-color: black;
         color: white;
@@ -600,13 +822,6 @@ nav {
             border-radius: 5px;
     }
 
-
-
 /*
     class et id :
-        border (à developpé)
-            [border-radius, border-transparent, ]
-
-        card (à developpé)
-            [card, card-fluid, card-body, ]
 */
