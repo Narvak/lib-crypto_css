@@ -594,29 +594,6 @@ nav {
     align-items: center;
     justify-content: center;
 }
-#slide::before, .slide::before,
-#slide-fluid::before, .slide-fluid::before,
-#slide-containeur::before, .slide-containeur::before {
-    background-image: url(../media/);
-    animation: aaa 10s infinite;
-}
-@keyframes aaa {
-    0%   {
-        background-image: url();
-    }
-    25%  {
-        background-image: url();
-    }
-    50%  {
-        background-image: url();
-    }
-    75% {
-        background-image: url();
-    }
-    100% {
-        background-image: url();
-    }
-}
 
 /* parallax */
 #parallax-window, .parallax-window {
