@@ -584,15 +584,15 @@ nav {
 
 /* slide */
 #slide, .slide, #slide-fluid, .slide-fluid {
-    width: 100%;
-    height: auto;
+    width: 100% !important;
+    height: auto !important;
 }
 #slide-containeur, .slide-containeur {
-    width: 0 auto;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 0 auto !important;
+    height: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 /* parallax */
