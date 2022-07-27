@@ -836,5 +836,8 @@ nav {
 
 
     balises :
-        main, aside,
+        main, 
+        aside,
+            left right
+        table, tr, td,
 */
