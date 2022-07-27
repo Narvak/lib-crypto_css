@@ -15,7 +15,8 @@
 
         <!-- Link stylesheet css -->
 		    <link rel="stylesheet" type="text/css" href="css/lib-crypto_css.css">
-		    <link rel="stylesheet" href="css/media-queries.css">
+            <link rel="stylesheet" type="text/css" href="css/slide.css">
+		    <link rel="stylesheet" type="text/css" href="css/media-queries.css">
 
         <!-- Favicon -->
 		    <link rel="icon" type="image/x-icon" href="media/svg/logo.svg"/>
@@ -61,7 +62,7 @@
         </a>
     </header>
 
-        <div id="">
+        <div class="">
             <p>
                 Lorem ipsum, <br />
                 dolor sit amet consectetur adipisicing elit. <br />
@@ -100,7 +101,7 @@
                 </p>
         </div>
 
-        <div id="" class="flex">
+        <div class="flex">
             <!-- SERVICE -->
                 <img src="media/" class="img-square">
                 <img src="media/" class="img-circle">
