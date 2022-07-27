@@ -41,7 +41,7 @@
 	<body>
 
 <!-- General-->
-	<header class="flex">
+	<header class="flex-center">
         <a href="#">
             <h1>lorem ipsum</h1>
         </a>
@@ -80,8 +80,24 @@
             </p>
         </div>
 
-        <div id="">
+        <div class="containeur">
             <!-- ABOUT -->
+                <p>
+                    Lorem ipsum, <br />
+                    dolor sit amet consectetur adipisicing elit. <br />
+                    Suscipit in voluptatum asperiores quo illo, <br />
+                    iste minus. <br />
+                    Nisi, <br />
+                    ratione ex quisquam deleniti ducimus tempore natus alias ut dolor molestiae, <br />
+                    et voluptates. <br />
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                    Voluptate veritatis reiciendis iusto, <br />
+                    ipsam mollitia, <br />
+                    voluptatum placeat adipisci quidem ducimus consequatur voluptatem, <br />
+                    fugit earum deserunt deleniti cumque aliquam non repudiandae vero. <br />
+                </p>
         </div>
 
         <div id="" class="flex">
@@ -99,7 +115,7 @@
                 Addresse.: <br />
         </div>
 
-	<footer class="flex">
+	<footer class="flex-center">
         <!-- BUTTON MODE -->
             <button class="button-mode box-shadow" onclick="darkmode(this)">Dark-mode</button>
             <button class="button-mode box-shadow" onclick="lightmode(this)">Light-mode</button>

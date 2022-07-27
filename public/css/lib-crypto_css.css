@@ -96,6 +96,18 @@ header, footer {
     width: 100%;
     height: auto;
 }
+main {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-blue-yellow-1);
+    width: 100%;
+    height: auto;
+}
+aside {
+    background: var(--lc-bg_color-2);
+    color: var(--lc-blue-yellow-1);
+    width: 100%;
+    height: auto;
+}
 
 /* id et class */
 #body, .body, #html, .html {
@@ -121,11 +133,11 @@ header, footer {
 }
 #wrapper, .wrapper {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 #section, .section {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 #paralax, .paralax {
     background: var(--lc-bg_color-1);
@@ -142,8 +154,11 @@ header, footer {
 #containeur, .containeur {
     background: #9a9a9a;
     color: black;
-    width: 100%;
+    width: 75%;
     height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 #contenaire, .contenaire {
     background: white;
@@ -175,24 +190,28 @@ header, footer {
     background-color: white;
     width: 144px;
     height: 144px;
+    border: transparent;
     border-radius: 15px;
 }
 #img-circle, .img-circle {
     background-color: white;
     width: 144px;
     height: 144px;
+    border: transparent;
     border-radius: 100%;
 }
 #img-square-h, .img-square-h {
     background-color: white;
     width: 144px;
     height: 233px;
+    border: transparent;
     border-radius: 15px;
 }
 #img-square-l, .img-square-l {
     background-color: white;
     width: 233px;
     height: 144px;
+    border: transparent;
     border-radius: 15px;
 }
 
@@ -799,6 +818,23 @@ nav {
             border-radius: 5px;
     }
 
+
+
+
+
+
+
+
 /*
     class et id :
+        button :hover (à developpé)
+            [.btn-hover-rs]
+            rs = reseau sociaux
+
+        input (à developpé)
+            [input => :hover, input => :focus]
+
+
+    balises :
+        main, aside,
 */
