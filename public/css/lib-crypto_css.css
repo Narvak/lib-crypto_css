@@ -830,14 +830,16 @@ nav {
         button :hover (à developpé)
             [.btn-hover-rs]
             rs = reseau sociaux
-
+        main
+        table, tr, td
+        aside (à developpé)
+            aside-left, aside-right
         input (à developpé)
             [input => :hover, input => :focus]
+        float
+            [left, right]
 
 
     balises :
-        main, 
-        aside,
-            left right
         table, tr, td,
 */

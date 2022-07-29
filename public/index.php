@@ -1,7 +1,3 @@
-<?php
-
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -62,7 +58,7 @@
         </a>
     </header>
 
-        <div class="">
+        <div class="flex">
             <p>
                 Lorem ipsum, <br />
                 dolor sit amet consectetur adipisicing elit. <br />
